@@ -1,0 +1,33 @@
+
+.w-100{
+    width: 100%;
+    background: white;
+}
+.left{
+    width: 30%;
+    float: left;
+    height: 100vh;
+}
+.right
+{
+    width:70%;
+    float: left;
+    height:90vh;
+}
+.movieBox
+{
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 20px;
+    float: left;
+}
+
+.movieBox img{
+    width: 250px;
+    height: 220px;
+    border-radius: 5px;
+    }

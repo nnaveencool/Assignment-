@@ -1,0 +1,15 @@
+<span>{{ title }} app is running!</span>
+<div *ngFor="let movie of movieResults" class="movieBox">
+  <div>
+    <img *ngIf="movie?.Poster != 'N/A'" src="{{ movie?.Poster }}" alt="" />
+    <img
+      *ngIf="movie?.Poster == 'N/A'"
+      src="https://ik.imagekit.io/demo/medium_cafe_B1iTdD0C.jpg"
+      alt=""
+    />
+  </div>
+  <div>
+    {{ movie.Title }}
+    <span *ngIf="movie?.Year"> ({{ movie.Year }}) </span>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+<!-- <p>base works!</p> -->
+<div class="w-100">
+  <div class="left">
+    <div>
+      <input type="text" placeholder="Search English Movies/Series" [(ngModel)]="searchVal" />
+      <button (click)="search(f)">Search</button>
+    </div>
+  </div>
+  <div class="right">
+    <iframe #f src="http://localhost:4201" frameborder="0" style="width: 100%; height: 100%"></iframe>
+  </div>
+</div>
